@@ -14,7 +14,6 @@ Prerequisites:
 
 1. Install VirtualBox - NOTE: If you are running on Windows 8 please make sure not to install the network drivers, as explained in this post: [http://www.grumpydev.com/2013/06/19/windows-8-hyper-v-virtualbox-vagrant-and-hanging-on-boot/](http://www.grumpydev.com/2013/06/19/windows-8-hyper-v-virtualbox-vagrant-and-hanging-on-boot/)
 2. Install Vagrant from [http://www.vagrantup.com/](http://www.vagrantup.com/)
-3. Install the vagrant-mountcommand plugin for Vagrant by running `vagrant plugin install vagrant-mountcommand`. This is to work around a current limitation with running commands at boot time that need to run *after* Vagrant mounts the /vagrant shared folder. See [here](https://github.com/mitchellh/vagrant/issues/2310) for more details.
 
 
 How to use this Vagrant box:
